@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @keyframes fade-in{
+        0%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
+        }
+    }
+    *{
+        margin: 0;
+    }
+    body{
+        animation:  fade-in 2s;
+        overflow-x: hidden;
+        background-color: rgb(4, 4, 66);
+    }
+    .menu{
+    width: 100%;
+    height:5%;
+    padding: 8px;
+    border: 2px white solid;
+    border-radius: 50px;
+    }
+     a{
+        color: white;
+        opacity: 0.5;
+        text-decoration: none;
+        font-size: 40px;
+        border: white 2px solid;
+        border-radius: 50px;
+    background-color: black;
+        font-style: italic;
+    }
+    a:hover{
+        cursor: pointer;
+        opacity: 1;
+    }
+    .main-menu{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+    }
+    .sign-in{
+        border: 1px white solid;
+        border-radius: 5px;
+        margin-left: 500px;
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        transform: scale(1.5);
+        height: 200px;
+        margin-top: 100px;
+        padding: 10px;
+        background-color: white;
+    }
+    input{
+        margin-left: 15px;
+        margin: 10px;
+    }
+    .age{
+        margin-left: 40px;
+    }
+    hr{
+        width:200px
+    }
+    li{
+        font-size: 30px;
+        color: white;
+        list-style-type: none;
+    }
+ 
+</style>
+<body>,
+    <section class="menu">
+        <nav class="nav">
+            <ul class="main-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="">Gifts</a></li>
+                <li><a href="./dressCode.html">Dress code</a></li>
+                <li><a href="">Contacts</a></li>
+            </ul>
+
+        </nav>
+
+    </section>
+        <h3 style=" color: white;">Before you can invite you first have to create an account</h3>
+        <div class="sign-in">
+            <h1 style="margin-left: 55px; ">form</h1>
+            <form>
+                <input type="input" placeholder="Enter your Email"/>
+                <hr/>
+                <input type="date" placeholder="enter date of birth" class="age"/>
+                <hr/>
+                <input type="password" placeholder="Enter a secure password"/>
+            </form>
+        </div>
+        <section>
+            <h3 style="font-size: 40px; color: white;">Invite List</h3>
+            <input type="search" placeholder="Search your name"/><button>Search</button>
+            <ul>
+                <li>harry:Invited</li>
+                <li>dave:Invited</li>
+                <li>garry:Invited</li>
+                <li>peter:Invited</li>
+                <li>sinthia:Invited</li>
+                <li>Paul:Invited</li>
+                <li>Danny:Invited</li>
+                <li>page:Invited</li>
+                <li>pilar:Invited</li>
+                <li>gabby:Invited</li>
+                <li>sofia:Invited</li>
+               </ul>
+        </section>
+ 
+</body>
+</html>
