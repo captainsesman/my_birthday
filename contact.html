@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+        @keyframes fade-in{
+        0%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
+        }
+    }
+    *{
+        margin: 0;
+    }
+    body{
+        animation:  fade-in 2s;
+        overflow-x: hidden;
+        background-color: rgb(4, 4, 66);
+        background-image: url(./images/test.jpg);
+    }
+    .menu{
+    width: 100%;
+    height:5%;
+    padding: 8px;
+    border: 2px white solid;
+    border-radius: 50px;
+    }
+     a{
+        color: white;
+        opacity: 0.5;
+        text-decoration: none;
+        font-size: 40px;
+        border: white 2px solid;
+        border-radius: 50px;
+    background-color: black;
+        font-style: italic;
+    }
+    a:hover{
+        cursor: pointer;
+        opacity: 1;
+    }
+    .main-menu{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+    }
+    .contact{
+        list-style-type: none;
+        color: white;
+        font-size: 70px;
+    }
+    .contact-list{
+        margin-left: 500px;
+    }
+</style>
+<body>
+    <section class="menu">
+        <nav class="nav">
+            <ul class="main-menu">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="">Gifts</a></li>
+                <li><a href="./dressCode.html">Dress code</a></li>
+                <li><a href="./contact.html">Contacts</a></li>
+            </ul>
+
+        </nav>
+
+    </section>
+    <p style="color: white;">Search your name</p><input type="search"/><button>search</button>
+    <section class="contact-list">
+        <h1 style="color: white; font-size: 100px;">Invite list</h1>
+        <h1 style="color: white;">Beware of <p style="color: red;">Daniella☠️</p></h1>
+        <ul class="contacts">
+            <li class="contact">Henry<p style="color: gold; font-size: 20px; position: absolute;">VIP</p> </li>
+            <li class="contact">Gerald</li>
+            <li class="contact">Gabby<p style="color: gold; font-size: 20px; position: absolute;">VIP</p></li>
+            <li class="contact">Dave</li>
+            <li class="contact">Tetra</li>
+            <li class="contact">Paul</li>
+            <li class="contact">Kat<p style="color: gold; font-size: 20px; position: absolute;">VIP</p></li>   
+            <li class="contact">Ali</li> 
+            <li class="contact">Alex</li> 
+            <li class="contact">Divine<p style="color: gold; font-size: 20px; position: absolute;">VIP</p></li> 
+        </ul>
+        
+    </section>
+    <p>Note:VIP's will be treated to the best of the occasion's abilities, and will be expected to bring the most outstanding gifts.</p>
+</body>
+</html>
